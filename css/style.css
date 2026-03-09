@@ -1,21 +1,60 @@
 *{
-    margin: 0;
     padding: 0;
-    
-   
-    
+    margin: 0;
 }
-table{
-    border: 2px solid white;
-    text-align: center;
-    font-size: 50px;
-     margin-top: 50px;
-     margin: auto;
-    
-    background-color: blueviolet;
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(75, 75, 204), white);
 }
-tr, td{
-    border: 1px solid white;
+.myNav{
+    margin: 50px;
     padding: 20px;
-    color: white;
+    background:black;
+    border-radius: 5px;
 }
+
+
+
+.first{
+    display: flex;
+    justify-content: space-between;
+
+} 
+ .first h1 {
+    color:yellow;
+
+  
+
+}
+.first p{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+
+.second a{
+
+    padding: 0px 20px;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.second a:hover{
+    color: rgb(0, 89, 255);
+}
+
+
+
