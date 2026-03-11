@@ -1,87 +1,93 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../images/download\ \(41\).jpg');
-    background-size: cover;
-    color:white;
+      
 }
-
-.myNav{
-    margin: 50px;
-    padding: 20px;
-    background:black;
-    border-radius: 5px;
+.my_img{
+    background-image: url('../images/images\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+   
 }
-
-
-
-.first{
-    display: flex;
+nav .container{
+   
+    display:flex;
     justify-content: space-between;
-
-} 
- .first h1 {
-    color:yellow;
-
-  
-
+    align-items: center;
+    padding: 20px 40px
+    
+    
 }
-.first p{
-    background-color: rgb(0, 102, 255);
-    color: white;
+header .container .content{
+    padding: 50px;
+    max-width: 50%
+}
+
+#mind{
+   padding: 15px;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.second{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  
+    color: black;
+   
 }
 
 
-.second a{
 
+#health{
+   padding: 15px;
+}
+
+nav div h1{
+    font-size: 30px;
+    color: green;
+    font-size: bold;
+}
+#yoga{
+    padding: 15px;
+    font-size: 50px;
+    color:green;
+}
+
+ a{
+    display:inline-block;
+    align-items:center;
     padding: 0px 20px;
-    gap: 20px;
     font-size: 20px;
-    color: white;
+    font-weight: bold;
     text-decoration: none;
-}
-.second a:hover{
-    color: rgb(0, 89, 255);
-}
+    color:rgb(5, 88, 5);
 
-
-/*
-
-.container{
-    margin: 20px;
-    padding: 10px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    border: 5px solid white;    
+    
 }
-
-.sub{
-    display: flex;
-    align-items: center;
-}
-.sub a{
-    padding: 0px 20px;
-    gap: 20px;
+.my_btn{
     font-size: 20px;
-    color: white;
-    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+    display:flex;
+    gap: 20px;
+    
+    
 }
 
-*/
+.btn1{
+    background: green;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.btn2{
+    background: black;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+
